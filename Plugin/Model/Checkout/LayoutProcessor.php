@@ -62,6 +62,11 @@ class LayoutProcessor
     }
 	
 	public function getMaxNoteLength () {
-		return (int)$this->scopeConfig->getValue(self::XML_PATH_GENERAL_MAX_LENGTH, ScopeInterface::SCOPE_STORE);
+		$max_length = (int)$this->scopeConfig->getValue(self::XML_PATH_GENERAL_MAX_LENGTH, ScopeInterface::SCOPE_STORE);
+		if($max_length > 0) {
+			return $max_length;
+		} else {
+			return false;
+		}
 	}
 }
