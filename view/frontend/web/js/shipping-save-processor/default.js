@@ -39,7 +39,7 @@ define([
         saveShippingInformation: function () {
             var payload;
 			
-			if (window.checkoutConfig.show_shipping_note > 0) {
+			if (window.checkoutConfig.show_shipping_note > 0 && window.checkoutConfig.max_length) {
 			var shipping_notes = $('textarea[name="checkout_shipping_notes"]').val();
 			//console.log(shipping_notes.length);
           	/*============ Customization Start =============*/
