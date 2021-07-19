@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="shipping_note" translate="label" type="text" sortOrder="1001" showInDefault="1" showInWebsite="1" showInStore="1">
+            <class>separator-top</class>
+            <label>Shipping note</label>
+            <tab>sales</tab>
+            <resource>Magelearn_ShippingNotes::config_shippingnote</resource>
+            <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="0">
+                <label>Shipping Note: General</label>
+                <field id="enabled" translate="label" type="select" sortOrder="0" showInDefault="1">
+                    <label>Enabled</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="is_show_in_myaccount" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>Show In Customer Account?</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                   <comment><![CDATA[If <strong>Yes</strong> the shipping note will show on customer frontend account,
+					in <strong>"My Account -> My Orders -> View Order"</strong>]]></comment>
+                </field>
+                <field id="max_length" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>Maximum Characters Length (limit)</label>
+					<validate>validate-number</validate>
+                    <comment><![CDATA[Enter the maximum characters allowed for the shipping note at the checkout page.
+						Eg: <strong>200</strong>. Leave empty for no characters limit]]></comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

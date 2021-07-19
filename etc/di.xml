@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Magelearn\ShippingNotes\Api\Data\ShippingNotesInterface" type="Magelearn\ShippingNotes\Model\Data\ShippingNotes" />
+    <preference for="Magelearn\ShippingNotes\Api\ShippingNotesRepositoryInterface" type="Magelearn\ShippingNotes\Model\ShippingNotesRepository" />
+    <preference for="Magelearn\ShippingNotes\Api\ShippingNotesGuestRepositoryInterface" type="Magelearn\ShippingNotes\Model\ShippingNotesGuestRepository" />
+</config>

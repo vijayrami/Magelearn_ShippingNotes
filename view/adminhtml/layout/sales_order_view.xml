@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <block class="Magento\Backend\Block\Template" name="order_shipping_notes"
+               template="Magelearn_ShippingNotes::order/view/shipping_notes.phtml" />
+    </body>
+</page>
