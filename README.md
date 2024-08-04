@@ -3,9 +3,9 @@
 
 ![configuration](/assets/image.png)
 
-[Checkout.png](/assets/image_1.png)
+![Checkout.png](/assets/image_1.png)
 
-[Checkout-1.png](/assets/image_2.png)
+![Checkout-1.png](/assets/image_2.png)
 
 Referances:
 
