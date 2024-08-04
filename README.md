@@ -1,11 +1,11 @@
 # Magelearn_ShippingNotes
 ### Magento 2 module to add shipping notes field to checkout page above shipping form (Implemented as a UI Component Form) and add custom validation for text length before going to Next step.
 
-[![Configuration-Settings-Stores-Magento-Admin.png](/assests/image.png)](/assests/image.png)
+[configuration](/assests/image.png)
 
-[![Checkout.png](/assests/image_1.png)](/assests/image_1.png)
+[Checkout.png](/assests/image_1.png)
 
-[![Checkout-1.png](/assests/image_2.png)](/assests/image_2.png)
+[Checkout-1.png](/assests/image_2.png)
 
 Referances:
 
