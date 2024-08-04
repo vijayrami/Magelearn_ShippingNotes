@@ -45,6 +45,8 @@ class ShippingNoteConfig implements ConfigProviderInterface
      */
     private $scopeConfig;
 
+    protected $session;
+
     /**
      * @param ScopeConfigInterface $scopeConfig
      */
